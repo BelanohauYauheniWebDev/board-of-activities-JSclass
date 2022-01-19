@@ -5,105 +5,62 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- displays site properly based on user's device -->
 
-		<link
+		<!-- <link
 			rel="icon"
 			type="image/png"
 			sizes="32x32"
 			href="./images/favicon-32x32.png"
-		/>
+		/> -->
 		<link rel="stylesheet" href="style.css" />
 
 		<title>Frontend Mentor | Time tracking dashboard</title>
-
-		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-		<style>
-			.attribution {
-				font-size: 11px;
-				text-align: center;
-			}
-			.attribution a {
-				color: hsl(228, 45%, 44%);
-			}
-		</style>
 	</head>
 	<body>
-		Report for Jeremy Robson Daily Weekly Monthly Work 5hrs
-		<!-- daily -->
-		Previous - 7hrs
-		<!-- daily -->
-		32hrs
-		<!-- weekly -->
-		Previous - 36hrs
-		<!-- weekly -->
-		103hrs
-		<!-- monthly -->
-		Previous - 128hrs
-		<!-- monthly -->
+		<section class="dashboard">
+			<div class="dashboard__content">
+				<div class="dashboard__person">
+					<div class="info-card">
+						<img
+							src="/images/image-jeremy.png"
+							alt="photo"
+							class="info-card__photo"
+						/>
+						<div class="info-card__text">
+							<p class="info-card__subtitle">Report for</p>
+							<h3 class="info-card__title">Jeremy Robson</h3>
+						</div>
+					</div>
+					<div class="view-selector">
+						<div class="view-selector__item">Daily</div>
+						<div
+							class="view-selector__item view-selector__item--active"
+						>
+							Weekly
+						</div>
+						<div class="view-selector__item">Monthly</div>
+					</div>
+				</div>
 
-		Play 1hr
-		<!-- daily -->
-		Previous - 2hrs
-		<!-- daily -->
-		10hrs
-		<!-- weekly -->
-		Previous - 8hrs
-		<!-- weekly -->
-		23hrs
-		<!-- monthly -->
-		Previous - 29hrs
-		<!-- monthly -->
-
-		Study 0hrs
-		<!-- daily -->
-		Previous - 1hr
-		<!-- daily -->
-		4hrs
-		<!-- weekly -->
-		Previous - 7hrs
-		<!-- weekly -->
-		13hrs
-		<!-- monthly -->
-		Previous - 19hrs
-		<!-- monthly -->
-
-		Exercise 1hr
-		<!-- daily -->
-		Previous - 1hr
-		<!-- daily -->
-		4hrs
-		<!-- weekly -->
-		Previous - 5hrs
-		<!-- weekly -->
-		11hrs
-		<!-- monthly -->
-		Previous - 18hrs
-		<!-- monthly -->
-
-		Social 1hr
-		<!-- daily -->
-		Previous - 3hrs
-		<!-- daily -->
-		5hrs
-		<!-- weekly -->
-		Previous - 10hrs
-		<!-- weekly -->
-		21hrs
-		<!-- monthly -->
-		Previous - 23hrs
-		<!-- monthly -->
-
-		Self Care 0hrs
-		<!-- daily -->
-		Previous - 1hr
-		<!-- daily -->
-		2hrs
-		<!-- weekly -->
-		Previous - 2hrs
-		<!-- weekly -->
-		7hrs
-		<!-- monthly -->
-		Previous - 11hrs
-		<!-- monthly -->
+				<div class="dashboard__item dashboard__item-work">
+					<article class="tracking-card">
+						<header class="tracking-card__header">
+							<h4 class="tracking-card__title">Work</h4>
+							<img
+								src="/images/icon-ellipsis.svg"
+								alt="menu"
+								class="tracking-card__menu"
+							/>
+						</header>
+						<div class="tracking-card__body">
+							<div class="tracking-card__time">5hrs</div>
+							<div class="tracking-card__prev-period">
+								Previous - 7hrs
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
 
 		<div class="attribution">
 			Challenge by
