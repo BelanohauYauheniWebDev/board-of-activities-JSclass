@@ -135,27 +135,27 @@ body {
 	background-position: 90% -8%;
 }
 
-.dashboard__item-work {
+.dashboard__item--work {
 	background-color: var(--red-100);
 	background-image: url(/images/icon-work.svg);
 }
-.dashboard__item-play {
+.dashboard__item--play {
 	background-color: var(--blue-100);
 	background-image: url(/images/icon-play.svg);
 }
-.dashboard__item-study {
+.dashboard__item--study {
 	background-color: var(--red-200);
 	background-image: url(/images/icon-study.svg);
 }
-.dashboard__item-exercise {
+.dashboard__item--exercise {
 	background-color: var(--green-100);
 	background-image: url(/images/icon-exercise.svg);
 }
-.dashboard__item-social {
-	background-color: var(--violet-500);
+.dashboard__item--social {
+	background-color: var(--violet-100);
 	background-image: url(/images/icon-social.svg);
 }
-.dashboard__item-self-care {
+.dashboard__item--self-care {
 	background-color: var(--orange-100);
 	background-image: url(/images/icon-self-care.svg);
 }
