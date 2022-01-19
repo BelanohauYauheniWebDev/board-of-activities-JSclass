@@ -1,0 +1,1 @@
+# board-of-activities-JSclass
